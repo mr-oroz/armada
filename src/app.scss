@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1369px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

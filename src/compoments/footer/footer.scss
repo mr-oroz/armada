@@ -1,0 +1,52 @@
+@import "../../assets/style/fonts.scss";
+
+.footer {
+    background: #3a3a3a;
+    padding-top: 64px;
+    padding-bottom: 87px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__about,
+    &__info,
+    &__contact,
+    &__social {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+        }
+        p {
+            width: 252px;
+            margin: 0;
+        }
+        span {
+            width: 214px;
+            margin-bottom: 10px;
+        }
+        p,
+        a,
+        span {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 150%;
+            color: #bcbbbb;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    &__info, &__social, &__contact {
+        a {
+            margin-bottom: 10px;
+        }
+    }
+}

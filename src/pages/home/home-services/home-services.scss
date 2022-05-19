@@ -1,0 +1,62 @@
+@import "../../../assets/style/fonts.scss";
+
+.home-services {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__card {
+        font-family: "Gilroy";
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        height: 404px;
+        width: 268px;
+        box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+    }
+    &__images {
+        width: 184px;
+        img {
+            width: 100%;
+        }
+    }
+    &__title-group {
+        h2, p {
+            text-align: center;
+        }
+        h2,
+        p,
+        a {
+            margin: 0;
+            padding: 0;
+            font-weight: 400;
+        }
+        h2 {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 19px;
+            color: #5e5e5e;
+            margin-bottom: 59px;
+        }
+    }
+    &__phone {
+        a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #753ed6;
+            text-decoration: none;
+        }
+    }
+}

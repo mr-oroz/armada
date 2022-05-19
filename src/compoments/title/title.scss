@@ -1,0 +1,24 @@
+@import "../../assets/style/fonts.scss";
+
+.title-text {
+    display: flex;
+    align-items: center;
+    &__title {
+        h1 {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            color: #000000;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+.title-text::before,
+.title-text::after {
+    content: "";
+    border: 2px solid #bebebe;
+    width: 100%;
+}

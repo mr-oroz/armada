@@ -1,0 +1,10 @@
+.home-client {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 130px;
+        }
+    }
+}

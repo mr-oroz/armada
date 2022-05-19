@@ -1,0 +1,35 @@
+@import "../../../assets/style/fonts.scss";
+
+.home-team {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 368px;
+            height: 440px;
+            margin-bottom: 24px;
+        }
+        h2,
+        p {
+            font-family: "Gilroy";
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+        h2 {
+            color: #000;
+            font-size: 36px;
+            line-height: 42px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 28px;
+            color: #6f6c6c;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+
+.home-prodoction {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 368px;
+            height: 300px;
+        }
+    }
+}
